@@ -1,0 +1,122 @@
+Newsgroups: rec.games.video.arcade.collecting
+From: rls@cbnewsc.cb.att.com (richard.l.schieve)
+Subject: Raster Monitor Lesson
+Date: Mon, 21 Mar 1994 00:54:46 GMT
+Keywords: Dusting off another old posting...
+
+
+There seems to be a lot of monitor related questions and problems
+so I thought I'd repost this:
+
+------------------------------
+
+Coin-op video games use one of two types of monitors, vector or
+raster scan.  Both vector and raster scan monitors are available in
+black and white or color.  A black and white picture tube has one
+electron gun that lights just one type of phosphor (usually, but not
+always white).  Color tubes have 3 electron guns that (when the yoke
+and neck magnets are aligned properly) each hit their own phosphors
+only, either red, green, or blue (RGB).  Something called a shadow
+mask is used so each gun hits only one set of phosphors.  This is
+just basic TV stuff.
+
+Raster scan techniques are what your basic TV set or computer
+monitor uses.  Internal circuitry uses the magnets on the neck of
+the tube to sweep the electron beam from left to right constantly.
+Another circuit moves the beam from top to bottom one scan line at a
+time (kind of like the way you read the page of a book).  This
+scanning goes on all the time, but the electron beam or beams are
+only turned on when the desired phosphor needs to be lit.  This all
+happens so fast that a complete picture appears.
+
+Inputs for most raster scan games include red, green, and blue (RGB)
+analog inputs or a single input for black and white.  RGB is usually
+positive logic, but some Nintendo games use negative RGB logic.  For
+positive, when the input is turned on, the electron gun is turned on
+lighting the phosphor where the gun is pointed at that time.  While
+these are analog inputs they are often driven with digital logic
+gates in various configurations.  One RGB input may be connected to
+several digital outputs where the intensity of the color is
+controlled by how many outputs are on.
+
+The other raster input or inputs are the sync inputs which are
+almost always TTL (5 volt) logic levels.  Most newer games use
+composite sync (just one input) while many old ones use separate
+horizontal and vertical sync inputs.  Depending on the game,
+positive or negative sync may be used.  Negative composite sync is
+probably the most popular sync scheme used.  When converting a video
+game to play another games, it is the sync input or inputs that
+needs the most attention as the RGB inputs usually just work fine.
+
+For instance, you wish to use an old monitor with no composite sync
+input (just separate horizontal and vertical inputs) to work with
+composite sync.  Usually you can just connect the two sync inputs
+together and re-adjust some monitor settings or sometimes just
+connect to the negative horizontal sync input.  Some monitors have
+only a negative logic sync input to use and the logic board only
+produces positive sync.  In this case you can just add a TTL logic
+inverter.
+
+Sometimes the picture comes out upside down or a mirror image.  I've
+only seen this with games that use a vertically mounted monitor.  I
+think the manufactures couldn't get together on which way to rotate
+the monitor.  In this case the wires to the deflection coils on the
+neck of the tube have to be reversed.
+
+There is a whole bag of tricks to use the get things going.  Most
+newer stuff is getting more standardized (JAMMA, etc.) using RGB and
+a negative composite sync from what I've seen, but I work on mostly
+older stuff.
+
+This information is all from my personal experiences in working on
+arcade video game.  If I have stated something incorrectly,
+constructive comments would be appreciated (please no flames).
+
+
+				Rick Schieve
+				rls@intgp1.att.com
+
+
+Newsgroups: rec.games.video.arcade.collecting
+From: rls@intgp8.ih.att.com (-Schieve,R.L.)
+Subject: Help With Raster Monitor Repairs
+Date: Sat, 1 Oct 1994 18:56:43 GMT
+
+When I first got into collecting arcade videos I found monitors to
+be truly daunting.  I spent many hours struggling with repairs even
+though I had some minimal background in TV repair.  I've discovered
+several things in the last few years to greatly aid in the repair of
+raster arcade monitors even if you have only minimal electronics
+skills and I thought I would share the information with those that
+are interested.
+
+The 4 most common raster monitors used in early 80s arcade games are
+the Electrohome G07, Wells-Gardner K4600 series, Wells-Gardner K4900
+series, and Wells-Gardner K7000 series (this one is much less common
+than the other 3).  Randy Fromm has spent years of his life helping
+educate inexperienced game technicians and the September 93 RePlay
+magazine contained one of Randy Fromm's Technical Tips covering
+these monitors.  There is some text but the article is mostly
+troubleshooting flow charts for each of these monitors.
+
+It is an outstanding article!  Even without any real understanding
+of how a monitor works and only really basic electronics skills you
+can fix a host of problems if armed with this article.
+
+The other big thing is the Zanen Electronics (806-793-6337) "Monitor
+Get Well Kits" that get mentioned from time to time in this group.
+I've installed more of these than I care to count and they work
+miracles on distorted and tired monitors.  Most of the kits are
+under $10 and are made up mostly of electrolytic capacitors
+replacing the tired ones that are no longer doing their job in your
+monitor.
+
+I'm not about to try and type in some kind of ascii version of the
+Randy Fromm article but I am willing to send copies to you by snail
+mail along a listing of the Zanen Electronics Get Well Kits.  IF YOU
+ARE INTERESTED SEND ME YOUR STREET ADDRESS and I'll drop a copy of
+this info in the mail to you.
+
+
+				Rick Schieve
+				rls@intgp1.att.com
